@@ -2,7 +2,7 @@ import React from 'react'
 
 function UserOutput(props) {
   return (
-    <div>
+    <div className='every'>
         <h2>Our facilitator said:</h2>
         <h4>{props.paragraph1}</h4>
         <h4>{props.paragraph2}</h4>
